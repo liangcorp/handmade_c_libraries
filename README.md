@@ -1,2 +1,1 @@
-# hamdmade_c_libraries
-Handmade libraries in C
+# Handmade Libraries in C
