@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+
 #include "doubly_linked_list.h"
 
 #ifdef MEMORY_DEBUG
