@@ -1,5 +1,16 @@
 # Handmade Libraries in C
 
+## Memory Debugging Library
+
+including the library will count the number of malloc, calloc ,realloc and
+free function calls. It will warning of unfreed or double freed memories.
+
+```C
+#ifdef MEMORY_DEBUg
+#include "memory_debug.h"
+#endif
+```
+
 ## Linked List Written in C
 
 Implementation of single and doubly linked list in C.
