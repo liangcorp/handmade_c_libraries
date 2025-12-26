@@ -1,8 +1,27 @@
 # Handmade Libraries in C
 
+## bool.h
+
+Custom bool definition.
+
+```C
+typedef enum { false = 0, true = 1 } bool;
+```
+
+## Result Variable Inspired by Rust's Result Enum
+
+Custom variable that can be used as a return result.
+
+```C
+typedef struct Result {
+    bool is_ok;
+    char error_message[100];
+} ResultType;
+```
+
 ## Memory Debugging Library
 
-including the library will count the number of malloc, calloc ,realloc and
+Including the library will count the number of malloc, calloc ,realloc and
 free function calls. It will warning of unfreed or double freed memories.
 
 ```C
